@@ -1,0 +1,151 @@
+/* init all */
+*{
+    padding: 0;border: 0;margin:0;
+}
+html{
+    background: rgb(253, 113, 113);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    width: 1000px;
+    height: 800px;
+    background: rgb(197, 180, 180);
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* init main */
+#test{
+    width: 500px;
+    height: 500px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    zoom: 5;
+}
+.player_img_container{
+    width: 204px;
+    height: 204px;
+    /* background:yellow; */
+    display: inline-block;
+    /* background: url('../img/Sprite-000.png') round no-repeat; */
+    overflow: hidden;
+    position: absolute;
+    bottom:-50px;
+    left: 0;
+    transition: bottom .3s linear;
+}
+.player_img1{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: -31px -30px;
+    zoom: 5;
+}
+.player_img1_rev{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: -70px -30px;
+    zoom: 5;
+    /* transform:rotateY(180deg); */
+}
+.player_img2{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: -78px -30px;
+    zoom: 5;
+}
+.player_img2_rev{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 85px -30px;
+    zoom: 5;
+    /* transform:rotateY(180deg); */
+}
+.player_img3{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 61px -30px;
+    zoom: 5;
+}
+.player_img3_rev{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 225px -30px;
+    zoom: 5;
+}
+.player_img4{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 173px -70px;
+    zoom: 5;
+}
+.player_img4_rev{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 132px -70px;
+    zoom: 5;
+    /* transform:rotateY(180deg); */
+}
+.player_img5_1{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 122px -70px;
+    zoom: 5;
+}
+.player_img5_2{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 82px -70px;
+    zoom: 5;
+}
+.player_img5_3{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 42px -70px;
+    zoom: 5;
+}
+.player_img5_1_rev{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 0px -70px;
+    zoom: 5;
+    transform-origin: 102px 102px;
+    /* transform:rotateY(180deg); */
+    /* transform: rotateX(180deg);
+    transform: translateX(-204px); */
+}
+.player_img5_2_rev{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 41px -70px;
+    zoom: 5;
+    transform-origin: 102px 102px;
+    /* transform:rotateY(180deg); */
+    /* transform: rotateX(180deg);
+    transform: translateX(-204px); */
+}
+.player_img5_3_rev{
+    width: 204px;
+    height: 204px;
+    background: url('../img/Sprite-000.png') round no-repeat;
+    background-position: 81px -70px;
+    zoom: 5;
+    transform-origin: 102px 102px;
+    /* transform:rotateY(180deg); */
+    /* transform: rotateX(180deg);
+    transform: translateX(-204px); */
+}
