@@ -11,7 +11,7 @@ html{
 body{
     width: 1000px;
     height: 800px;
-    background: rgb(197, 180, 180);
+    /* background: rgb(197, 180, 180); */
     overflow: hidden;
     position: absolute;
     left: 50%;
@@ -32,9 +32,10 @@ body{
     /* background: url('../img/Sprite-000.png') round no-repeat; */
     overflow: hidden;
     position: absolute;
+    z-index: 1;
     bottom:-50px;
     left: 0;
-    transition: bottom .3s linear;
+    transition: bottom .2s linear;
 }
 .player_img1{
     width: 204px;
@@ -148,4 +149,7 @@ body{
     /* transform:rotateY(180deg); */
     /* transform: rotateX(180deg);
     transform: translateX(-204px); */
+}
+#canvas{
+    position: absolute;
 }
